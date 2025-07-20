@@ -1,0 +1,99 @@
+--------------------------------------------------
+    Start { 20.07.2025 SUN 01:29 AM }
+--------------------------------------------------
+
+
+[Module 10]
+
+
+
+
+Text Instruction___________________________________
+
+
+
+
+
+Video 01___________________________________________
+
+
+
+
+
+
+Video 02___________________________________________
+
+
+
+
+
+
+
+
+Video 03___________________________________________
+    (CSS3 features and CSS overflow, text-overflow, ellipsis)
+
+    We can add a overflow in an box in CSS3 -->
+
+        .box {
+            overflow: scroll; or auto;
+            overflow-y: hidden;
+        }
+
+    We can use Ellipsis in text-overflow -->
+
+        .paragraph {
+            text-overflow: ellipsis;
+        }
+        in html -->
+        <p title="All text in this paragraph" class="paragraph">...</p>
+
+
+
+Video 04___________________________________________
+    (Transform element using rotate scale translate)
+
+    CSS "transform" property is use to change an element's look, and "translate property is use for moving an element. 
+
+
+
+Video 05___________________________________________
+    (Introduction to CSS animation Transition)
+
+    
+
+
+Video 06___________________________________________
+
+
+
+
+
+Video 07___________________________________________
+
+
+
+
+Video 08___________________________________________
+
+
+
+
+Video 09___________________________________________
+
+
+
+
+--------------------------------------------------
+    Pause { 00.07.2025 THU 00:00 PM } to { 00.07.2025 THU 00:00 PM }
+--------------------------------------------------
+
+PRACTICE TASK --->
+
+
+
+
+© Saad_Ferozee
+--------------------------------------------------
+    End { 00.07.2025 WED 00:00 AM }
+--------------------------------------------------
