@@ -53,14 +53,14 @@ Video 03___________________________________________
 Video 04___________________________________________
     (Transform element using rotate scale translate)
 
-    CSS "transform" property is use to change an element's look, and "translate property is use for moving an element. 
+    CSS "transform" property is use to change an element's look "kind of shape change", and "translate property is use for moving an element. 
 
 
 
 Video 05___________________________________________
     (Introduction to CSS animation Transition)
 
-    
+
 
 
 Video 06___________________________________________
