@@ -46,12 +46,6 @@ img {
     font-style: normal;
 }
 
-.manrope-bold {
-    font-family: "Manrope", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
 .poppins-semibold {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -67,6 +61,12 @@ img {
 .inter-medium {
     font-family: "Inter", sans-serif;
     font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 .nav-company-name {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--font-color-1);
 }
 
@@ -149,7 +149,7 @@ body {
 .menu-tag a {
     text-decoration: none;
     color: var(--font-color-1);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* navbar css end */
@@ -321,4 +321,37 @@ body {
     padding: 1rem 1.9rem;
     border-radius: 0.2rem;
     font-size: 1.5rem;
+}
+/* join now section css end */
+
+
+/* footer section css */
+.footer-section {
+    margin-top: 6rem;
+    padding: 6rem;
+    background-color: var(--secondary-bg);
+}
+.footer-title {
+    margin-bottom: 1.5rem;
+
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.footer-description {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.footer-logo-box {
+    margin-top: 2rem;
+    width: 15rem;
+}
+.footer-logo-box li {
+    list-style: none;
+}
+
+.footer-logo-box li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: antiquewhite;
 }
