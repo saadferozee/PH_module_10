@@ -46,7 +46,7 @@ Video 03___________________________________________
             text-overflow: ellipsis;
         }
         in html -->
-        <p title="All text in this paragraph" class="paragraph">...</p>
+        <p title="All text in this paragraph" class="paragraph">All text in this paragraph</p>
 
 
 
@@ -64,9 +64,13 @@ Video 05___________________________________________
 
 
 Video 06___________________________________________
+    ((optional) Cricket match animation transform, translate, transition)
 
+    If I want to hover on a element and change happened in other element, I have to use this code -->
 
-
+        .box-container:hover .box {
+            display: none;
+        }
 
 
 Video 07___________________________________________
@@ -75,8 +79,17 @@ Video 07___________________________________________
 
 
 Video 08___________________________________________
+    ((advanced) CSS Custom property and use var, calc)
 
+    We can add variables in CSS it known as custom property -->
 
+        using --> 
+            :root {
+                --primary-color: #faebd7;
+                --font-size-primary: 1rem;
+                --text-color-primary: #87ceeb;
+                --bg-primary: #000000;
+            }
 
 
 Video 09___________________________________________
@@ -84,16 +97,18 @@ Video 09___________________________________________
 
 
 
---------------------------------------------------
-    Pause { 00.07.2025 THU 00:00 PM } to { 00.07.2025 THU 00:00 PM }
---------------------------------------------------
+Video 10___________________________________________
+
+
+
 
 PRACTICE TASK --->
 
+    Influencer webpage from PH github.
 
 
 
 © Saad_Ferozee
 --------------------------------------------------
-    End { 00.07.2025 WED 00:00 AM }
+    End { 21.07.2025 MON 08:00 PM }
 --------------------------------------------------
