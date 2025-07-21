@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
 
 /* custom property */
 :root {
@@ -73,13 +76,108 @@
     display: flex;
 }
 
+.just-between {
+    justify-content: space-between;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.m-center {
+    margin: 0 auto;
+}
+
 .center-x {
     justify-content: center;
 }
 
 .center-y {
-    align-items: center;
+    align-content: center;
+}
+
+.btn {
+    padding: 0.6rem 1.5rem;
+    background-color: var(--btn-color);
+    border-radius: 2.6rem;
+    border: 1px solid var(--btn-color);
+
+    color: white;
+    font-size: 1rem;
 }
 
 
 /* CSS starts here */
+body {
+    background-color: white;
+}
+
+/* navbar css */
+.navbar {
+    /* width: 100%; */
+    padding-top: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.nav-company-name {
+    font-size: 1.5rem;
+    color: var(--font-color-1);
+}
+
+.menu {
+    width: 40%;
+}
+
+.menu-tag {
+    list-style: none;
+}
+
+.menu-tag a {
+    text-decoration: none;
+    color: var(--font-color-1);
+    font-size: 1rem;
+}
+/* navbar css end */
+
+
+/* hero section css */
+.hero-section {
+    margin-top: 50px;
+}
+
+.hero-container {
+    width: 80%;
+    background-image: url("../assets/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero-title-box {
+    width: 55%;
+    padding-right: 20px;
+}
+
+.hero-title {
+    margin-bottom: 1rem;
+
+    font-size: 3.25rem;
+    line-height: 4rem;
+    color: var(--font-color-1);
+}
+
+.hero-description {
+    margin-bottom: 1rem;
+    margin-right: 6rem;
+
+    font-size: 1rem;
+    color: var(--font-color-1);
+}
+
+.hero-img-box {
+    height: 500px;
+}
+/* hero section css end */
+
+
+/* brand section css */
