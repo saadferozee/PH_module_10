@@ -88,6 +88,10 @@ img {
     margin: 0 auto;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .center-x {
     justify-content: center;
 }
@@ -97,13 +101,22 @@ img {
 }
 
 .btn {
-    padding: 0.6rem 1.5rem;
+    padding: 1.5rem 2.1rem;
     background-color: var(--btn-color);
-    border-radius: 2.6rem;
     border: 1px solid var(--btn-color);
 
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
+
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out 0s, color 0.5s ease-in-out 0s, background-color 0.5s ease-in-out 0s;
+}
+
+.btn:hover {
+    background-color: #00000005;
+    color: var(--btn-color);
+    box-shadow: 0.5rem 0.5rem 2rem #e01c6d30;
+    /* transition: 0.5s; */
 }
 
 
@@ -136,8 +149,9 @@ body {
 .menu-tag a {
     text-decoration: none;
     color: var(--font-color-1);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
+
 /* navbar css end */
 
 
@@ -156,19 +170,23 @@ body {
 }
 
 .hero-title {
-    margin-bottom: 1rem;
-    
-    font-size: 3.25rem;
-    line-height: 4rem;
+    margin-bottom: 2rem;
+
+    font-size: 4rem;
+    line-height: auto;
     color: var(--font-color-1);
 }
 
 .hero-description {
-    margin-bottom: 1rem;
     margin-right: 6rem;
-    
-    font-size: 1rem;
+    margin-bottom: 3rem;
+
+    font-size: 1.5rem;
     color: var(--font-color-1);
+}
+
+.btn-rounded {
+    border-radius: 2.6rem;
 }
 
 .hero-img-box {
@@ -179,6 +197,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
 /* hero section css end */
 
 
@@ -186,11 +205,84 @@ body {
 .brand-logos {
     width: 75%;
     margin-top: 6.25rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 1rem;
     border-top: 1px solid #00000020;
     border-bottom: 1px solid #00000020;
 
     gap: 4.5rem;
 }
+
 /* brand section css end */
+
+
+/* popular card section css */
+.popular-collection {
+    margin-top: 10rem;
+}
+
+.popular-title {
+    font-size: 2.8rem;
+    color: var(--font-color-1);
+}
+
+.popular-card-container {
+    width: 75%;
+}
+
+.popular-cards {
+    /* width: 75%; */
+    margin-top: 6.25rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.popular-card {
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    box-shadow: 0.5rem 0.5rem 2.75rem #00000020;
+}
+
+.popular-image-box {
+    border-radius: 0.8rem;
+}
+
+.card-title {
+    margin-top: 1.25rem;
+
+    font-size: 2.5rem;
+    color: var(--font-color-2);
+}
+
+.card-price-tag {
+    margin-top: 1.25rem;
+
+    font-size: 2rem;
+    color: var(--font-color-2);
+}
+
+.card-rating-tag {
+    margin-top: 1.2rem;
+
+    font-size: 1rem;
+    color: var(--font-color-4);
+}
+
+.card-description {
+    margin-top: 1rem;
+
+    font-size: 1rem;
+    color: var(--font-color-3);
+}
+
+.see-more-btn {
+    margin-top: 2rem;
+
+    text-align: end;
+    color: var(--btn-color);
+
+    cursor: pointer;
+}
+/* popular card section css end */
