@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 4px solid #87ceeb;
+}
+
+.box {
+    width: 400px;
+    height: auto;
+    padding: 30px;
+    border: 2px solid skyblue;
+    transition: transform 3s ease-in-out 0s, height 3s linear 0s, background-color 3s ease-in-out 0s, color 3s ease-in-out 0s;
+}
+.box p{
+    transition: color 3s linear 0s;
+}
+
+.box:hover {
+    transform: rotate(-70deg) translate(0, 0);
+    height: calc(auto + 200px);
+    background-color: black;
+    /* color: antiquewhite; */
+}
+.box:hover p {
+    color: #faebd7;
+}
