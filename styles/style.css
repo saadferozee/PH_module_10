@@ -84,8 +84,16 @@ img {
     justify-content: space-between;
 }
 
+.just-evenly {
+    justify-content: space-evenly;
+}
+
 .just-around {
     justify-content: space-around;
+}
+
+.just-end {
+    justify-content: end;
 }
 
 .m-center {
@@ -133,8 +141,12 @@ body {
 .navbar {
     /* width: 100%; */
     padding-top: 6rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+
+.menu-bar {
+    display: none;
 }
 
 .nav-company-name {
@@ -213,7 +225,13 @@ body {
     border-top: 1px solid #00000020;
     border-bottom: 1px solid #00000020;
 
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 4.5rem;
+}
+
+.brand-logo {
+    width: 8rem;
 }
 
 /* brand section css end */
@@ -282,9 +300,12 @@ body {
 }
 
 .see-more-btn {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    border: none;
+    background: #00000001;
 
     text-align: end;
+    font-size: 1.8rem;
     color: var(--btn-color);
 
     cursor: pointer;
