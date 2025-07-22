@@ -78,100 +78,129 @@
     }
 
     /* popular section responsive end */
-    
+
 }
 
 
 
 /* media query for mobile devices */
 @media screen and (max-width: 576px) {
-    
+
     /* my code here */
-    
+
     /* navbar responsive */
     .menu-bar {
         display: block;
     }
-    
+
     .menu {
         width: auto;
     }
-    
+
     .menu-tags {
         gap: 30%;
     }
-    
+
+    .nav-company-name {
+        font-size: 1.2rem;
+    }
+
     #menu-tag-1,
     #menu-tag-2,
     #menu-tag-3,
     #menu-tag-4 {
         display: none;
-    } 
+    }
+
     /* navbar responsive end */
-    
+
     /* hero section responsive */
     .hero-container {
         /* background-color: aqua; */
         flex-direction: column-reverse;
     }
-    
+
     .hero-title-box {
         width: 90%;
         margin: 5rem auto;
         padding-right: 0;
         text-align: center;
     }
-    
+
     .hero-title {
         font-size: 2.8rem;
     }
-    
+
     .hero-img-box {
-        height: 380px;
-        width: 380px;
+        height: 300px;
+        width: 300px;
+        background-image: none;
         margin: 0 auto;
     }
-    
+
     .hero-description {
         margin-right: 0;
-    } 
+    }
+
     /* hero section responsive end */
-    
+
+    /* brand section responsive */
+    .brand-logo {
+        width: 5rem;
+    }
+
     /* popular section responsive */
     .popular-cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .card-title {
         margin-top: 1rem;
         font-size: 2.3rem;
     }
-    
+
     .card-price-tag {
         margin-top: 1rem;
         font-size: 1.8rem;
     }
-    
+
     .card-rating-tag {
         margin-top: 0.8rem;
         font-size: 1rem;
     }
-    
+
     .card-description {
         margin-top: 0.7rem;
         font-size: 1rem;
     }
+
     /* popular section responsive end */
 
     /* join now section responsive */
     .join-now-container {
         flex-direction: column-reverse;
     }
+
     .join-now-image-box {
         width: auto;
     }
+
     .join-now-box {
         width: auto;
     }
+
     /* join now section responsive end */
+
+    /* footer section responsive */
+    .footer-description {
+        font-size: 1rem;
+    }
+
+    .footer-logo-box {
+        width: 10rem;
+    }
+
+    .footer-logo-box li a {
+        font-size: 1.3rem;
+    }
 }
